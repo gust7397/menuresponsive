@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    line-height: 24px;
+    margin: auto;
+}
+
+header {
+    background-color: darkgray;
+    height: 100px;
+}
+
+header figure {
+    height: 100%;
+}
+
+header figure img {
+    margin: 10px 38%;
+    height: 80%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.menu a {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    color: rgb(55, 192, 255);
+    border: 1px solid rgb(55, 192, 255);
+    border-radius: 5px;
+}
+
+.cont {
+    height: 500px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid rgb(55, 192, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont .texto {
+    width: 50%;
+}
+
+.cont .texto h3 {
+    color: rgb(126, 63, 20);
+    font-size: 1.5em;
+}
+
+.cont .texto p {
+    text-align: justify;
+}
+
+.cont .texto a {
+    display: inline-block;
+    color: white;
+    background-color: rgb(126, 63, 20);
+    margin: 10px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.cont figure {
+    width: 50%;
+}
+
+.cont figure img {
+    width: 100%;
+    height: fit-content;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(35, 35, 80);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
